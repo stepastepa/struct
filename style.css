@@ -90,7 +90,7 @@ section {
   align-items: center;
   text-align: center;
 
-  & p:first-child {
+  & p.mono {
     margin-bottom: 20px;
   }
 }
