@@ -299,11 +299,16 @@ section {
   padding-bottom: calc(100px + 2rem); /* +copyright */
   text-align: center;
   width: 100vw;
+  
+  & p.mono {
+    margin-bottom: 20px;
+  }
 }
 
 .footer h2 {
   font-size: clamp(60px, 10vw, 120px);
   letter-spacing: -0.05em;
+  line-height: 0.85;
 }
 
 .footer-contact {
