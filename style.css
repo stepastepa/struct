@@ -89,6 +89,10 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  & p:first-child {
+    margin-bottom: 20px;
+  }
 }
 
 .hero h1 {
