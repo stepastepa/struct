@@ -80,7 +80,7 @@ nav a {
 }
 
 section {
-  width: 100vw;
+  width: 100vw; /* 100% */
   min-height: 100vh;
   border-bottom: var(--border);
   position: relative;
