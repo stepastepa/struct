@@ -139,7 +139,7 @@ section {
 .project-block {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 100vh;
+  min-height: calc(100vh - 50px); /* minus header */
 }
 
 .p-info {
