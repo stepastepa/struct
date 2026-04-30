@@ -82,6 +82,7 @@ nav a {
 section {
   width: 100vw; /* 100% */
   min-height: 100vh;
+  min-height: 100dvh; /* mobile */
   border-bottom: var(--border);
   position: relative;
   display: flex;
@@ -140,6 +141,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: calc(100vh - 50px); /* minus header */
+  min-height: calc(100dvh - 50px); /* mobile */
 }
 
 .p-info {
@@ -419,5 +421,13 @@ section {
     line-height: 0.85;
     letter-spacing: -0.06em;
     margin-bottom: 20px;
+  }
+}
+
+/* hide on touchscreen devices */
+@media (pointer: coarse) and (hover: none) {
+  #bim-overlay,
+  #coords {
+    display: none;
   }
 }
