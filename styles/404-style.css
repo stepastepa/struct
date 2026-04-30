@@ -158,3 +158,11 @@ a.back:hover {
     transform: translateY(0);
   }
 }
+
+/* hide on touchscreen devices */
+@media (pointer: coarse) and (hover: none) {
+  #bim-overlay,
+  #coords {
+    display: none;
+  }
+}
