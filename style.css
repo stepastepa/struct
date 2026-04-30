@@ -255,9 +255,7 @@ section {
   padding: 100px 40px;
   width: 100vw;
   min-height: unset;
-  /* border-bottom: var(--border-white); */
   
-  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,7 +282,6 @@ section {
   padding: 100px 40px;
   width: 100vw;
   min-height: unset;
-  /* border-bottom: var(--border-white); */
   
   height: 50vh;
   display: flex;
