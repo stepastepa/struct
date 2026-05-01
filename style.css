@@ -203,6 +203,11 @@ section {
   font-weight: 400;
 }
 
+.check-icon {
+  width: 24;
+  height: 24;
+}
+
 #bim-overlay {
   position: fixed;
   top: 0;
